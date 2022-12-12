@@ -8,10 +8,13 @@ body {
     color: #818181;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #fff;
 }
 
+.penguin {
+  object-fit: fill;
+}
 
 .jumbotron {
     height: 50vh;
@@ -31,17 +34,14 @@ h1, h2 {
 }
 
 .navbar {
-    margin-bottom: 0;
-    background-color: #020A12;
-    z-index: 9999;
-    border: 0;
-    font-size: 14px !important;
-    line-height: 1.42857143 !important;
-    letter-spacing: 4px;
-    border-radius: 0;
-    font-family: Montserrat, sans-serif;
-  }
-
+  margin-bottom: 0;
+  background-color: #020A12;
+  z-index: 9999;
+  border: 0;
+  letter-spacing: 3px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+}
   .navbar li a, .navbar .navbar-brand {
     color: #fff !important;
   }

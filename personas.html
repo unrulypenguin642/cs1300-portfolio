@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personas & Storytelling</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="personas/styles.css" /> 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  </head>
+  <body id="body" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  <nav class="sticky-top navbar navbar-dark py-3 navbar-expand-md" style="background-color: #020A12;">
+    <div class="container-fluid navbar-container">
+      <a class="navbar-brand" href="index.html">unrulypenguin642</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" onclick="toggleMenuIcon">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ms-auto mb-2">
+          <li><a class="nav-link" href="#background">BACKGROUND</a></li>
+          <li><a class="nav-link" href="#users">USERS</a></li>
+          <li><a class="nav-link" href="#personas">PERSONAS</a></li>
+          <li><a class="nav-link" href="#storyboard">STORYBOARD</a></li>
+        </ul>
+      </div>  
+    </div>
+  </nav>
+
+<div id="title" class="container-fluid text-center">
+  <br>
+  <br>
+  <h1>Developing user personas and storyboards for UX research</h1>
+</div>
+
+<!-- Container (Background Section) -->
+<div id="background" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12">
+      <h2>BACKGROUND</h2>
+      <h4>In this project, I conducted UX research on a commonly used device on Brown's campus: the mail services kiosks. At Brown, you are notified via email when a package addressed to you arrives at Mail Services. You are then able to go to Mail Services to collect your packages. When you reach the mailroom, you must add your information to a queue so that the workers at the mailroom know where to retrieve your package from mail storage. This queue is created by the mailroom kiosk, of which there are 3 in total, with two found right outside the mailroom and one on the inside. </h4>
+
+      <p>
+        <strong>OBJECTIVE:</strong> 
+        To better understand user needs for a mailroom kiosk, I observed and interviewed users, then developed personas and storyboards to inform future design choices when looking to redesign or create a new device to enable users to efficiently collect their mail from Brown University Mail Services.  
+      </p> 
+      
+    </div>
+  </div>
+</div>
+
+<div id="interface" class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="personas/sketch.png" alt="Sketch of mail services kiosk" width="100%">
+    </div>
+    <div class="col-sm-6">
+      <h2>The Interface</h2>
+      <h4>To further describe this device, this mail kiosk creates a queue for picking up packages from Brown University Mail Services. Its main components include a card reader and a touch display. The card reader is used to scan a user’s Brown ID and the touch display allows users to view the number of packages they have and select whether they want to pick them up now. The touch screen also enables users to manually type in their username and password. These devices are mounted in or near the mailroom.</h4>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Understanding Users Section) -->
+<div id="users" class="container-fluid">
+  <h2>Understanding Users: Observations & Interviews</h2>
+  <div class="row">
+    <div class="col-sm-12">
+      <h4>Although I have used this device personally many times during my past few years at Brown, I wanted to better understand how other users interacted with the interface to see if my experiences aligned with the experiences of others. To do so, I observed users interacting with the device during various hours of the day, including times when the mailroom was jam packed with people as well as times when only one or two students were inside waiting to pick up their packages.</h4>
+      <h4><strong> User Observations: Key Takeaways</strong></h4>
+      <ul>
+        <li>Users first swipe their Brown ID, then interact with the touch display. If the screen indicates that the user has a package, all users observed chose the option to "Pickup Now". Users then proceed to the mailroom.</li>
+        <li>There are three kiosks in total and the card readers are in different orientations for the two kiosks located outside the mailroom.</li>
+        <li>Sometimes users need to reswipe their Brown ID if it didn't work correctly the first time.</li>
+        <li>Users typically spend around 10-20 seconds using the kiosk. </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <h4>Following observations, I then interviewed some users about their experiences with the kiosks at Brown Mail Services.</h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <h4><strong>Interview Questions</strong> </h4>
+      <ol>
+        <li>Could you walk me through how you would use this device?</li>
+        <li>In any given month, how often do you typically use this kiosk?</li>
+        <li>How many items are you expecting to pick up?</li>
+        <li>Do you know what the contents of your items are?</li>
+        <li>Have you experienced any difficulties with this device in the past? </li>
+        <li>What information would an ideal kiosk provide?</li>
+        <li>Is there anything you wish you could change about this device?</li>
+        <li>Is there anything you'd like to say that I haven't already asked about?</li>
+      </ol>
+    </div>
+    <div class="col-sm-6">
+      <h4><strong>Interview Response Summaries</strong></h4>
+      <ul>
+        <li> Users tend to use the mailroom kiosks around once or twice a month.</li>
+        <li> Interestingly, users tend to know the contents of their packages, but not their letter mail.</li>
+        <li> Difficulties with the kisok tend to be a result of swiping the card in the wrong orientation.</li>
+        <li>Users would want the kiosk screen to show information such as the estimated wait time or number of people ahead in the queue.</li>
+        <li>Users would also want the kiosk to display more information about the mail they are there to pick up, such as the size/weight or its origin.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <h4>These interviews provided me with insight into how other users interact with the mailroom kiosk and ultimately helped me develop personas to represent the different types of users of this device. One takeaway from the interviews I found interesting was that in general, users tended to know the contents of their packages (boxes, soft packages, etc.), while they often did not expect nor know the contents of their letter mail packages. While this generally rings true for me too, I had never really thought about this dichotomy.</h4>
+    </div>
+  </div>
+</div>
+
+<!-- Container (personas Section) -->
+<div id="personas" class="container-fluid text-center bg-grey">
+  <h2>Developing Personas</h2>
+  <h4>One of the toughest parts of this project for me was coming up with the personas for this device. Before doing the observations and conducting interviews, I had thought that there was really a single persona: students. However, after conducting more user research, I was able to develop the following two personas:</h4>
+  <div class="row text-center slideanim">
+    <div class="col-sm-6">
+      <div class="thumbnail">
+        <img src="personas/shopaholic_suzie.PNG" alt="Empathy map for Shopaholic Suzie" width="450px" height="600px" >
+        <br>
+        <p> Shopaholic Suzie is a student who enjoys going on online shopping sprees.
+        </p>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="thumbnail">
+        <img src="personas/busy_betty.PNG" alt="Empathy map for Busy Betty" width="450px" height="600px">
+        <br>
+        <p> Busy Betty is a student who stops by the mailroom to pick up her mail in-between classes. 
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+<!-- Container (storyboard Section) -->
+<div id="storyboard" class="container-fluid">
+  <div class="text-center">
+    <h2>Creating a storyboard</h2>
+    <h4>Once I fleshed out my personas, I created a storyboard for Shopaholic Suzie: </h4>
+  </div>
+  <div class="row slideanim">
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-body">
+          <img src="personas/frame1.PNG" alt="Storyboard Frame 1" width="100%">
+        </div>
+        <div class="panel-heading">
+          <h5>1. After a long day of classes, Suzie treats herself by going on an online shopping spree.</h5>
+        </div>
+      </div>      
+    </div>     
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-body">
+          <img src="personas/frame2.PNG" alt="Storyboard Frame 1" width="100%">
+        </div>
+        <div class="panel-heading">
+          <h5>2. The next day, she gets an email from Mail Services saying her packages have arrived.</h5>        
+        </div>
+      </div>      
+    </div>       
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-body">
+          <img src="personas/frame3.PNG" alt="Storyboard Frame 1" width="100%">
+        </div>
+        <div class="panel-heading">
+          <h5>3. Excited for the packages, she makes her way to the mailroom. </h5>
+        </div>
+      </div>      
+    </div>    
+  </div>
+  <div class="row slideanim">
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-body">
+          <img src="personas/frame4.PNG" alt="Storyboard Frame 1" width="100%">
+        </div>
+        <div class="panel-heading">
+          <h5>4. She swipes her card in the card reader of one of the mail kiosks. </h5>
+        </div>
+      </div>      
+    </div>     
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-body">
+          <img src="personas/frame5.PNG" alt="Storyboard Frame 1" width="100%">
+        </div>
+        <div class="panel-heading">
+          <h5>5. She selects "Pickup Now" on the touch display when it indicates she has 2 packages.</h5>
+        </div>
+      </div>      
+    </div>       
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-body">
+          <img src="personas/frame6.PNG" alt="Storyboard Frame 1" width="100%">
+        </div>
+        <div class="panel-heading">
+          <h5>6. Suzie waits patiently in the mailroom for someone to call her name.</h5>
+        </div>
+      </div>      
+    </div>    
+  </div>
+  <div class="row slideanim">
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-body">
+          <img src="personas/frame7.PNG" alt="Storyboard Frame 1" width="100%">
+        </div>
+        <div class="panel-heading">
+          <h5>7. The mailroom kiosk tells her to proceed to the mailroom to pick up her mail.</h5>
+        </div>
+      </div>      
+    </div>   
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center"> 
+        <div class="panel-body">
+          <img src="personas/frame8.PNG" alt="Storyboard Frame 1" width="100%">
+        </div>
+        <div class="panel-heading">
+          <h5>8. When her name is called, she rushes to the front desk to sign for her packages.</h5>
+        </div>
+      </div>      
+    </div>     
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-body">
+          <img src="personas/frame9.PNG" alt="Storyboard Frame 1" width="100%">
+        </div>
+        <div class="panel-heading">
+          <h5>9. Suzie heads back to her dorm, excited to try on her new outfits.</h5>        
+        </div>
+      </div>      
+    </div>       
+  </div>
+</div>
+
+<!-- Container (Summary Section) -->
+<div id="summary" class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-12">
+      <h2>SUMMARY & TAKEAWAYS</h2>
+      <h4> Overall, this project gave me first-hand experience in conducting UX research to improve an existing interface. Through this project, I was able to accomplish the following: </h4>
+      <ul>
+        <li> I learned about the importance of observing and interviewing a variety of users when conducting UX research.</li>
+        <li> I developed personas and fleshed them out by creating empathy maps for each persona.</li>
+        <li> I created a storyboard, considering the user's full journey and context when using the device. In this case, the mailroom kiosk is only a part of a user's experience in picking up mail at Brown.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
