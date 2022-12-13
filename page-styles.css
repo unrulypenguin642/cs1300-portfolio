@@ -1,0 +1,125 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+    }
+  
+    h1 {
+      color: #fff;
+    }
+  
+    h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #020A12;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+  
+    h2.center-header {
+      text-align: center;
+    }
+  
+    h3 {
+      font-size: 20px;
+      color: #303030;
+      text-align: center;
+      font-weight: bold;
+    }
+  
+    h4 {
+      font-size: 18px;
+      line-height: 2rem;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+    } 
+  
+    li {
+      color: #303030
+    }
+  
+    img {
+      margin-bottom: 2rem;
+    }
+  
+    .container-fluid {
+      padding: 25px 50px;
+    }
+  
+  
+    @media (min-width: 1200px) {
+      .container-fluid {
+        padding: 25px 200px;
+      }
+    }
+  
+    .bg-grey {
+      background-color: #F2F2F2;
+    }
+    
+  
+    .row {
+      display: flex;
+    }
+  
+    #title {
+      background-color: #020A12;
+    }
+  
+    #interface .row {
+      align-items: center;
+    }
+  
+    .navbar {
+      margin-bottom: 0;
+      background-color: #020A12;
+      z-index: 9999;
+      border: 0;
+      letter-spacing: 3px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+      display: flex;
+    }
+    .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+    }
+    .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #020A12 !important;
+      background-color: #fff !important;
+    }
+    .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+    }
+  
+    .navbar-brand {
+        font-size: 24px !important;
+        margin: 1rem;
+      }
+  
+    /* M's additions below */
+    #test-instructions{
+      margin-left:2rem;
+    }
+  
+    .gif{
+      height: 20rem;
+      width: auto;
+      margin-right:2rem;
+    }
+  
+    #gif-holder{
+      display: flex;
+      flex-direction: row;
+      justify-items: center;
+      justify-content: center;
+    }
+  
+    #user-testing{
+      color: black;
+    }
